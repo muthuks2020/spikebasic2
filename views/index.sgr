@@ -1,0 +1,14 @@
+extends(src='layout.sgr')
+  block(name='content')
+    h2 Hello World!
+    p Example of data {{ sitemeta.title }}
+    p(md) Example of **markdown**
+    p Example of "smart quotes" -- and dashes
+
+    p {{ sitemeta.email }}
+
+    each(loop='item of pages')
+      li
+        img(src='{{ item.slug }}')
+        .name {{ item.title.rendered }}
+        p <a href="posts/{{ item.slug }}">Läs mer</a>

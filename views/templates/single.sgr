@@ -1,0 +1,4 @@
+extends(src='views/layout.sgr')
+  block(name='content')
+    p {{ item.title.rendered }}
+    p {{ item.content.rendered }}

@@ -1,0 +1,6 @@
+block(name='title')
+  title About - {{ sitemeta.title }}
+
+extends(src='layout.sgr')
+  block(name='content')
+    h2 Records!
