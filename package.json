@@ -1,8 +1,8 @@
 {
-  "name": "records",
-  "description": "records",
+  "name": "spike2",
+  "description": "spike2",
   "version": "0.0.1",
-  "author": "marthings",
+  "author": "muthu",
   "ava": {
     "verbose": "true"
   },
