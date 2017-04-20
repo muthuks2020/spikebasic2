@@ -6,7 +6,7 @@
   "ava": {
     "verbose": "true"
   },
-  "bugs": "https://github.com/marthings/records/issues",
+  "bugs": "https://github.com/muthuks2020/spikebasic2/issues",
   "dependencies": {
     "reshape-standard": "^1.0.0",
     "spike": "^1.0.0",
@@ -23,10 +23,10 @@
     "spike-core": "^1.0.0",
     "standard": "^10.0.0"
   },
-  "homepage": "https://github.com/marthings/records",
+  "homepage": "https://github.com/muthuks2020/spikebasic2/records",
   "main": "app.js",
   "private": true,
-  "repository": "https://github.com/marthings/records",
+  "repository": "https://github.com/muthuks2020/spikebasic2/records",
   "scripts": {
     "lint": "standard | snazzy",
     "precommit": "npm run lint -s",
